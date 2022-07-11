@@ -1,0 +1,135 @@
+body {
+    background-image: url(/images/autres/low_poly_banner_design_2203.jpg);
+    background-size:cover ;
+}
+
+#form-image {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 60rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 13rem auto;
+    box-shadow: 1px 1px 10px rgba(67, 67, 67, 0.874);
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+#form-image h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    color: rgb(67, 67, 67);
+    margin: 0;
+    padding-top: 1rem;
+}
+
+#form-image p {
+    font-size: 0.9rem;
+    color: rgb(5, 66, 131);
+    margin-bottom: 2rem;
+}
+
+input {
+    padding: 0.5rem;
+    padding-left:35px;
+    height: 2rem;
+    width: 20rem;
+    margin-bottom: 0.7rem;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+input:focus {
+    border-color: rgb(138, 170, 206);
+}
+
+div {
+    margin: 1.5rem;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+#login {
+    background: url(/images/icons/doc-icon.png) no-repeat scroll 7px 12px;
+}
+
+#mdp {
+    background: url(/images/icons/password-icon.PNG) no-repeat scroll 3px 12px;
+}
+
+#mdp-connecter{
+    margin: 0;
+}
+
+#mdp-connecter a {
+    text-decoration: none;
+    margin-right: 2.5rem;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+#mdp-oublie {
+    color:rgb(5, 66, 131) ;
+    transition: 0.2s ease-out;
+
+}
+
+#mdp-oublie:hover {
+    color: rgb(211, 170, 93);
+}
+
+#se-connecter {
+    color: white;
+    background-color: green;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-out;
+}
+
+#se-connecter:hover {
+    background-color: rgb(1, 99, 1);
+}
+
+#image {
+    background-image: url(/images/autres/side-pic.webp);
+    background-size:cover ;
+    background-position: center;
+    width: 50rem;
+    margin: 0
+}
+
+hr {
+    margin: 0;
+}
+
+#image div {
+    margin: 0;
+    position: relative;
+    top:24rem;
+    left: 15rem;
+}
+
+#retour {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.891);
+    width: 13rem;
+    color: rgb(67, 67, 67);
+    border-radius: 6px;
+
+}
+
+#retour svg {
+    padding-right: 0.2rem;
+    color: rgb(67, 67, 67);
+    width: 1.3rem;
+}
